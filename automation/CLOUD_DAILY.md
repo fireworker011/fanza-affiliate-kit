@@ -23,17 +23,31 @@
 
 ### 2. このフォルダを push
 
-PowerShell（Git インストール済み前提）:
+**このキット用アカウント/リポジトリ（確定）**
+
+- GitHub ユーザー: `fanza-affiliate-kit`
+- リポジトリ名: `fanza-affiliate-kit`
+- URL: https://github.com/fanza-affiliate-kit/fanza-affiliate-kit
+
+先に https://github.com/new で **そのアカウントにログインした状態で** 空の Private リポジトリ `fanza-affiliate-kit` を作る（README なし）。
+
+PowerShell:
 
 ```powershell
 cd C:\Users\ys734\fanza_affiliate_kit
-git init
-git add .
-git commit -m "feat: affiliate kit + daily cloud automation"
+git remote remove origin 2>$null
+git remote add origin https://github.com/fanza-affiliate-kit/fanza-affiliate-kit.git
 git branch -M main
-git remote add origin https://github.com/あなたのユーザー名/fanza-affiliate-kit.git
 git push -u origin main
 ```
+
+または:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File automation\push_github.ps1 -GitHubUser fanza-affiliate-kit
+```
+
+認証を聞かれたら、その GitHub アカウントのパスワードではなく **Personal Access Token** を使う（Settings → Developer settings → Tokens）。
 
 GitHub CLI がある場合:
 
