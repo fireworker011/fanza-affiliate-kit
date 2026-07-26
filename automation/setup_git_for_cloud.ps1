@@ -1,7 +1,7 @@
 # Initialize git repo for GitHub Actions cloud daily runs.
 # Does NOT create the remote for you (needs your GitHub account).
 
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Continue"
 # script is automation\setup_git_for_cloud.ps1 -> kit root is parent of automation
 $kit = Split-Path $PSScriptRoot -Parent
 Set-Location $kit
@@ -20,22 +20,22 @@ if (-not (Test-Path .git)) {
 git add -A
 git status
 
-$hasHead = $true
-git rev-parse HEAD 2>$null | Out-Null
-if ($LASTEXITCODE -ne 0) { $hasHead = $false }
+git rev-parse --verify HEAD 1>$null 2>$null
+$hasHead = ($LASTEXITCODE -eq 0)
 
 if (-not $hasHead) {
-  git commit -m "feat: FANZA kit with cloud daily note package automation"
+  git -c user.email=kit@local -c user.name=fanza-kit commit -m "feat: FANZA kit with cloud daily note package automation"
   Write-Output "initial commit created"
 } else {
   $pending = git status --porcelain
   if ($pending) {
-    git commit -m "chore: update automation for cloud daily runs"
+    git -c user.email=kit@local -c user.name=fanza-kit commit -m "chore: update automation for cloud daily runs"
     Write-Output "commit created"
   } else {
     Write-Output "nothing to commit"
   }
 }
+git branch -M main 2>$null
 
 Write-Output ""
 Write-Output "Next steps:"
