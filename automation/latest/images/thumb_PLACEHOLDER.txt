@@ -1,0 +1,2 @@
+Generate thumbnail PNG from thumb_prompt.txt → save as thumb.png
+Upload as note cover/thumbnail.

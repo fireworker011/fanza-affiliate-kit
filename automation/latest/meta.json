@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-27",
+  "slug": "skip-rank1",
+  "title": "「人気1位」を買わなくていい日がある",
+  "hub_url": "https://preeminent-frangipane-e8530c.netlify.app/hub.html",
+  "generator_mode": "template",
+  "series_item": {
+    "slug": "skip-rank1",
+    "title": "「人気1位」を買わなくていい日がある",
+    "angle": "ランキング依存の失敗",
+    "focus_product": null
+  },
+  "images": [
+    "ノートとチェックリストのフラットイラスト、机の上、落ち着いた色",
+    "3つのカードが並ぶ図、あまあま・ギャップ・長尺のラベル"
+  ],
+  "thumbnail_prompt": "暗い背景に「欲求の型で選ぶ」白い太字、成人向け同人比較のサムネ、文字多め禁止、シンプル",
+  "tags": [
+    "同人",
+    "FANZA",
+    "比較",
+    "選び方"
+  ]
+}
