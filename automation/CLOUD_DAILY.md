@@ -25,29 +25,25 @@
 
 **このキット用アカウント/リポジトリ（確定）**
 
-- GitHub ユーザー: `fanza-affiliate-kit`
+- GitHub ユーザー: `fireworker011`
 - リポジトリ名: `fanza-affiliate-kit`
-- URL: https://github.com/fanza-affiliate-kit/fanza-affiliate-kit
+- URL: https://github.com/fireworker011/fanza-affiliate-kit
 
-先に https://github.com/new で **そのアカウントにログインした状態で** 空の Private リポジトリ `fanza-affiliate-kit` を作る（README なし）。
-
-PowerShell:
+PowerShell（remote 再設定）:
 
 ```powershell
 cd C:\Users\ys734\fanza_affiliate_kit
-git remote remove origin 2>$null
-git remote add origin https://github.com/fanza-affiliate-kit/fanza-affiliate-kit.git
-git branch -M main
+git remote set-url origin https://github.com/fireworker011/fanza-affiliate-kit.git
 git push -u origin main
 ```
 
 または:
 
 ```powershell
-powershell -ExecutionPolicy Bypass -File automation\push_github.ps1 -GitHubUser fanza-affiliate-kit
+powershell -ExecutionPolicy Bypass -File automation\push_github.ps1 -GitHubUser fireworker011
 ```
 
-認証を聞かれたら、その GitHub アカウントのパスワードではなく **Personal Access Token** を使う（Settings → Developer settings → Tokens）。
+認証を聞かれたら **Personal Access Token** を使う（Settings → Developer settings → Tokens）。
 
 GitHub CLI がある場合:
 
