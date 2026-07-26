@@ -1,0 +1,72 @@
+# Runs in the cloud even when your PC is powered off.
+# Schedule: 00:00 UTC = 09:00 JST (adjust cron if needed)
+name: Daily note package
+
+on:
+  schedule:
+    # 00:15 UTC ≈ 09:15 JST
+    - cron: "15 0 * * *"
+  workflow_dispatch: # manual "Run workflow" button on GitHub
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-note-package
+  cancel-in-progress: false
+
+jobs:
+  build-package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate daily package
+        env:
+          # Optional: set repo secret XAI_API_KEY for LLM articles
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          XAI_MODEL: ${{ vars.XAI_MODEL }}
+          TZ: Asia/Tokyo
+        run: |
+          python automation/run_daily.py
+          # copy newest package to a stable path for browsing in repo
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+          out = Path("automation/out")
+          dirs = sorted([p for p in out.iterdir() if p.is_dir()], key=lambda p: p.name)
+          if not dirs:
+              raise SystemExit("no package directory created")
+          latest = dirs[-1]
+          dest = Path("automation/latest")
+          if dest.exists():
+              shutil.rmtree(dest)
+          shutil.copytree(latest, dest)
+          print("latest ->", dest, "from", latest)
+          PY
+
+      - name: Upload package artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: note-package
+          path: automation/latest
+          retention-days: 14
+
+      - name: Commit state + latest package
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p automation
+          git add -A automation/state.json automation/latest || true
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore(automation): daily note package $(date -u +%Y-%m-%d)"
+            git push
+          fi

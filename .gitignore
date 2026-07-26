@@ -1,0 +1,19 @@
+# local / secrets
+.browser_profile/
+**/__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+
+# large / ephemeral
+automation/out/
+!automation/out/.gitkeep
+campaigns/first/deploy_folder/
+campaigns/first/doujin-lab-site.zip
+campaigns/first/_deploy_staging/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store

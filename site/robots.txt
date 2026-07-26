@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://preeminent-frangipane-e8530c.netlify.app/sitemap.xml

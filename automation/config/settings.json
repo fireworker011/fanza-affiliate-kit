@@ -1,0 +1,41 @@
+{
+  "hub_url": "https://preeminent-frangipane-e8530c.netlify.app/hub.html",
+  "site_base": "https://preeminent-frangipane-e8530c.netlify.app",
+  "affiliate_id": "fireworker-003",
+  "note_profile_hint": "comeback_trader6",
+  "materials_glob": [
+    "campaigns/first/12_NOTE_GROWTH_PACK.md",
+    "campaigns/first/note_post_main.md",
+    "campaigns/first/note_post_short.md",
+    "docs/06_grok_review_method.md",
+    "campaigns/first/01_plan.md"
+  ],
+  "products": [
+    {
+      "id": "a",
+      "name": "エロ小説みたいな青春Hを陽キャ彼女の水渡さんと",
+      "cid": "d_490055",
+      "circle": "カームホワイト",
+      "label": "SWEET",
+      "review_path": "/review-a.html"
+    },
+    {
+      "id": "b",
+      "name": "姉弟でシたらいけません",
+      "cid": "d_738506",
+      "circle": "柵野14",
+      "label": "TABOO+VOLUME",
+      "review_path": "/review-b.html"
+    },
+    {
+      "id": "c",
+      "name": "ボーイッシュ幼馴染がギャル化してから勃起が止まらない！",
+      "cid": "d_692288",
+      "circle": "なのかえいち",
+      "label": "GAP",
+      "review_path": "/review-c.html"
+    }
+  ],
+  "output_dir": "automation/out",
+  "state_file": "automation/state.json"
+}

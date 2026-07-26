@@ -1,0 +1,90 @@
+{
+  "kit_name": "fanza_affiliate_kit",
+  "version": "1.0.0",
+  "description": "Beginner-ready FANZA (DMM Affiliate) kit: research → env → links → structure → click methods",
+  "required_sections": [
+    {
+      "id": "runbook",
+      "path": "docs/01_runbook.md",
+      "must_contain": [
+        "## STEP 1",
+        "## STEP 2",
+        "## STEP 3",
+        "## STEP 4",
+        "## STEP 5",
+        "## STEP 6",
+        "## STEP 7",
+        "Done when"
+      ]
+    },
+    {
+      "id": "market_research_funnel",
+      "path": "docs/02_market_research_funnel.md",
+      "must_contain": [
+        "## ニッチ選定",
+        "## キーワード・需要チェック",
+        "## 稼ぎ直結コンテンツマップ",
+        "affiliate CTA"
+      ]
+    },
+    {
+      "id": "environment_links",
+      "path": "docs/03_environment_and_links.md",
+      "must_contain": [
+        "## 必要アカウント",
+        "## 媒体準備",
+        "## アフィリエイトリンク獲得",
+        "affiliate.dmm.com",
+        "ツールバー"
+      ]
+    },
+    {
+      "id": "article_template",
+      "path": "templates/fanza_article_template.md",
+      "must_contain": [
+        "{{タイトル}}",
+        "{{ターゲットキーワード}}",
+        "CTA-1",
+        "CTA-2",
+        "CTA-3"
+      ]
+    },
+    {
+      "id": "text_click_method",
+      "path": "docs/04_text_click_methods.md",
+      "must_contain": [
+        "## CTA文言パターン",
+        "## 配置ルール",
+        "Done when"
+      ]
+    },
+    {
+      "id": "video_click_method",
+      "path": "docs/05_video_sns_click_methods.md",
+      "must_contain": [
+        "## 動画導線",
+        "## SNS導線",
+        "Done when"
+      ]
+    },
+    {
+      "id": "compliance_checklist",
+      "path": "checklists/compliance.md",
+      "must_contain": [
+        "年齢",
+        "規約",
+        "画像"
+      ]
+    },
+    {
+      "id": "first_campaign_checklist",
+      "path": "checklists/first_campaign.md",
+      "must_contain": [
+        "市場リサーチ",
+        "環境",
+        "リンク",
+        "公開"
+      ]
+    }
+  ]
+}

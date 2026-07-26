@@ -1,0 +1,46 @@
+{
+  "queue": [
+    {
+      "slug": "3sec-check",
+      "title": "同人を買う前の3秒チェック",
+      "angle": "短時間の意思決定チェックリスト",
+      "focus_product": null
+    },
+    {
+      "slug": "skip-rank1",
+      "title": "「人気1位」を買わなくていい日がある",
+      "angle": "ランキング依存の失敗",
+      "focus_product": null
+    },
+    {
+      "slug": "temp-first",
+      "title": "初めての同人は「温度感」だけで選んでいい",
+      "angle": "SWEET入口・水渡さん系",
+      "focus_product": "a"
+    },
+    {
+      "slug": "gap-when",
+      "title": "ギャップものが刺さる人の条件",
+      "angle": "GAP特化・ギャル化",
+      "focus_product": "c"
+    },
+    {
+      "slug": "longform-purpose",
+      "title": "長尺・禁断シチュは「目的買い」専用",
+      "angle": "TABOO+VOLUME・姉弟長尺",
+      "focus_product": "b"
+    },
+    {
+      "slug": "type-filter",
+      "title": "FANZA同人、欲求の型で先にフィルタする方法",
+      "angle": "Grok式トポロジー入門",
+      "focus_product": null
+    },
+    {
+      "slug": "hub-howto",
+      "title": "比較ハブの使い方（30秒診断の歩き方）",
+      "angle": "自サイト導線説明",
+      "focus_product": null
+    }
+  ]
+}
