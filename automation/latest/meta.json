@@ -1,18 +1,18 @@
 {
   "date": "2026-07-27",
-  "slug": "skip-rank1",
-  "title": "「人気1位」を買わなくていい日がある",
+  "slug": "temp-first",
+  "title": "初めての同人は「温度感」だけで選んでいい",
   "hub_url": "https://preeminent-frangipane-e8530c.netlify.app/hub.html",
   "generator_mode": "template",
   "series_item": {
-    "slug": "skip-rank1",
-    "title": "「人気1位」を買わなくていい日がある",
-    "angle": "ランキング依存の失敗",
-    "focus_product": null
+    "slug": "temp-first",
+    "title": "初めての同人は「温度感」だけで選んでいい",
+    "angle": "SWEET入口・水渡さん系",
+    "focus_product": "a"
   },
   "images": [
     "ノートとチェックリストのフラットイラスト、机の上、落ち着いた色",
-    "3つのカードが並ぶ図、あまあま・ギャップ・長尺のラベル"
+    "抽象的な分岐矢印（A/B/C）、R18直球描写なし"
   ],
   "thumbnail_prompt": "暗い背景に「欲求の型で選ぶ」白い太字、成人向け同人比較のサムネ、文字多め禁止、シンプル",
   "tags": [
