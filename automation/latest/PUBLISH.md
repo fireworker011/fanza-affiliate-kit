@@ -1,8 +1,8 @@
-# 投稿チェックリスト（2026-07-29）
+# 投稿チェックリスト（2026-07-30）
 
 ## 1. 本文
 - [ ] `article.md` を note 新規投稿に貼る
-- [ ] タイトル: 長尺・禁断シチュは「目的買い」専用
+- [ ] タイトル: FANZA同人、欲求の型で先にフィルタする方法
 
 ## 2. 画像
 - [ ] `images/01_prompt.txt` などで画像生成 → `01.png` として保存
@@ -19,7 +19,7 @@
 
 ## 半自動投稿
 ```powershell
-python automation\note_publish.py --package "/home/runner/work/fanza-affiliate-kit/fanza-affiliate-kit/automation/out/2026-07-29_longform-purpose" --headed
+python automation\note_publish.py --package "/home/runner/work/fanza-affiliate-kit/fanza-affiliate-kit/automation/out/2026-07-30_type-filter" --headed
 ```
 
 生成モード: template
