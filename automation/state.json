@@ -1,5 +1,5 @@
 {
-  "next_index": 0,
+  "next_index": 1,
   "history": [
     {
       "slug": "3sec-check",
@@ -28,6 +28,10 @@
     {
       "slug": "hub-howto",
       "index": 6
+    },
+    {
+      "slug": "3sec-check",
+      "index": 0
     }
   ]
 }
