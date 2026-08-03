@@ -1,8 +1,8 @@
-# 投稿チェックリスト（2026-08-02）
+# 投稿チェックリスト（2026-08-03）
 
 ## 1. 本文
 - [ ] `article.md` を note 新規投稿に貼る
-- [ ] タイトル: 「人気1位」を買わなくていい日がある
+- [ ] タイトル: 初めての同人は「温度感」だけで選んでいい
 
 ## 2. 画像
 - [ ] `images/01_prompt.txt` などで画像生成 → `01.png` として保存
@@ -19,7 +19,7 @@
 
 ## 半自動投稿
 ```powershell
-python automation\note_publish.py --package "/home/runner/work/fanza-affiliate-kit/fanza-affiliate-kit/automation/out/2026-08-02_skip-rank1" --headed
+python automation\note_publish.py --package "/home/runner/work/fanza-affiliate-kit/fanza-affiliate-kit/automation/out/2026-08-03_temp-first" --headed
 ```
 
 生成モード: template
