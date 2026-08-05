@@ -1,5 +1,5 @@
 {
-  "next_index": 4,
+  "next_index": 5,
   "history": [
     {
       "slug": "3sec-check",
@@ -44,6 +44,10 @@
     {
       "slug": "gap-when",
       "index": 3
+    },
+    {
+      "slug": "longform-purpose",
+      "index": 4
     }
   ]
 }

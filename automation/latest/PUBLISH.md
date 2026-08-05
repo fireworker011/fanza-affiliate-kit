@@ -1,8 +1,8 @@
-# 投稿チェックリスト（2026-08-04）
+# 投稿チェックリスト（2026-08-05）
 
 ## 1. 本文
 - [ ] `article.md` を note 新規投稿に貼る
-- [ ] タイトル: ギャップものが刺さる人の条件
+- [ ] タイトル: 長尺・禁断シチュは「目的買い」専用
 
 ## 2. 画像
 - [ ] `images/01_prompt.txt` などで画像生成 → `01.png` として保存
@@ -19,7 +19,7 @@
 
 ## 半自動投稿
 ```powershell
-python automation\note_publish.py --package "/home/runner/work/fanza-affiliate-kit/fanza-affiliate-kit/automation/out/2026-08-04_gap-when" --headed
+python automation\note_publish.py --package "/home/runner/work/fanza-affiliate-kit/fanza-affiliate-kit/automation/out/2026-08-05_longform-purpose" --headed
 ```
 
 生成モード: template
