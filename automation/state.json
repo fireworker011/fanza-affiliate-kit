@@ -1,5 +1,5 @@
 {
-  "next_index": 5,
+  "next_index": 6,
   "history": [
     {
       "slug": "3sec-check",
@@ -48,6 +48,10 @@
     {
       "slug": "longform-purpose",
       "index": 4
+    },
+    {
+      "slug": "type-filter",
+      "index": 5
     }
   ]
 }
