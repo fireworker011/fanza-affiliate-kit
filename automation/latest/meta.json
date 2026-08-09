@@ -1,13 +1,13 @@
 {
-  "date": "2026-08-08",
-  "slug": "3sec-check",
-  "title": "同人を買う前の3秒チェック",
+  "date": "2026-08-09",
+  "slug": "skip-rank1",
+  "title": "「人気1位」を買わなくていい日がある",
   "hub_url": "https://preeminent-frangipane-e8530c.netlify.app/hub.html",
   "generator_mode": "template",
   "series_item": {
-    "slug": "3sec-check",
-    "title": "同人を買う前の3秒チェック",
-    "angle": "短時間の意思決定チェックリスト",
+    "slug": "skip-rank1",
+    "title": "「人気1位」を買わなくていい日がある",
+    "angle": "ランキング依存の失敗",
     "focus_product": null
   },
   "images": [
