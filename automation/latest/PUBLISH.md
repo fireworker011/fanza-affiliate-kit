@@ -1,8 +1,8 @@
-# 投稿チェックリスト（2026-08-14）
+# 投稿チェックリスト（2026-08-15）
 
 ## 1. 本文
 - [ ] `article.md` を note 新規投稿に貼る
-- [ ] タイトル: 比較ハブの使い方（30秒診断の歩き方）
+- [ ] タイトル: 同人を買う前の3秒チェック
 
 ## 2. 画像
 - [ ] `images/01_prompt.txt` などで画像生成 → `01.png` として保存
@@ -19,7 +19,7 @@
 
 ## 半自動投稿
 ```powershell
-python automation\note_publish.py --package "/home/runner/work/fanza-affiliate-kit/fanza-affiliate-kit/automation/out/2026-08-14_hub-howto" --headed
+python automation\note_publish.py --package "/home/runner/work/fanza-affiliate-kit/fanza-affiliate-kit/automation/out/2026-08-15_3sec-check" --headed
 ```
 
 生成モード: template
