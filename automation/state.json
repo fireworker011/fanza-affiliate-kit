@@ -1,5 +1,5 @@
 {
-  "next_index": 1,
+  "next_index": 2,
   "history": [
     {
       "slug": "3sec-check",
@@ -88,6 +88,10 @@
     {
       "slug": "3sec-check",
       "index": 0
+    },
+    {
+      "slug": "skip-rank1",
+      "index": 1
     }
   ]
 }
