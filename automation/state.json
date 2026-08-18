@@ -1,5 +1,5 @@
 {
-  "next_index": 3,
+  "next_index": 4,
   "history": [
     {
       "slug": "3sec-check",
@@ -96,6 +96,10 @@
     {
       "slug": "temp-first",
       "index": 2
+    },
+    {
+      "slug": "gap-when",
+      "index": 3
     }
   ]
 }
