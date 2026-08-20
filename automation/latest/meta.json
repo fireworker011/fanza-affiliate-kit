@@ -1,18 +1,18 @@
 {
-  "date": "2026-08-19",
-  "slug": "longform-purpose",
-  "title": "長尺・禁断シチュは「目的買い」専用",
+  "date": "2026-08-20",
+  "slug": "type-filter",
+  "title": "FANZA同人、欲求の型で先にフィルタする方法",
   "hub_url": "https://preeminent-frangipane-e8530c.netlify.app/hub.html",
   "generator_mode": "template",
   "series_item": {
-    "slug": "longform-purpose",
-    "title": "長尺・禁断シチュは「目的買い」専用",
-    "angle": "TABOO+VOLUME・姉弟長尺",
-    "focus_product": "b"
+    "slug": "type-filter",
+    "title": "FANZA同人、欲求の型で先にフィルタする方法",
+    "angle": "Grok式トポロジー入門",
+    "focus_product": null
   },
   "images": [
     "ノートとチェックリストのフラットイラスト、机の上、落ち着いた色",
-    "抽象的な分岐矢印（A/B/C）、R18直球描写なし"
+    "3つのカードが並ぶ図、あまあま・ギャップ・長尺のラベル"
   ],
   "thumbnail_prompt": "暗い背景に「欲求の型で選ぶ」白い太字、成人向け同人比較のサムネ、文字多め禁止、シンプル",
   "tags": [
