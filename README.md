@@ -22,6 +22,7 @@
 **note成長（連載）:** [`campaigns/first/12_NOTE_GROWTH_PACK.md`](campaigns/first/12_NOTE_GROWTH_PACK.md)  
 **再デプロイ手順:** [`campaigns/first/13_DEPLOY_AND_SELFTEST.md`](campaigns/first/13_DEPLOY_AND_SELFTEST.md)  
 **note日次自動化:** [`automation/README.md`](automation/README.md) — `python automation\run_daily.py`  
+**山口式ナレッジ（note特化）:** [`knowledge/yamaguchi_method/README.md`](knowledge/yamaguchi_method/README.md) — インストラクション原文 + note発信用ドラフト  
 **PCオフでも毎日生成:** [`automation/CLOUD_DAILY.md`](automation/CLOUD_DAILY.md)（GitHub Actions）
 **Xを使わない集客:** [`campaigns/first/10_NO_X_TRAFFIC.md`](campaigns/first/10_NO_X_TRAFFIC.md)
 
