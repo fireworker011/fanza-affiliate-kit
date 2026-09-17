@@ -1,11 +1,7 @@
 {
-  "next_index": 5,
+  "next_index": 6,
   "history": [
     {
-      "slug": "longform-purpose",
-      "index": 4
-    },
-    {
       "slug": "type-filter",
       "index": 5
     },
@@ -200,6 +196,10 @@
     {
       "slug": "longform-purpose",
       "index": 4
+    },
+    {
+      "slug": "type-filter",
+      "index": 5
     }
   ]
 }
