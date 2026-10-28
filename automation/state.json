@@ -1,11 +1,7 @@
 {
-  "next_index": 4,
+  "next_index": 5,
   "history": [
     {
-      "slug": "gap-when",
-      "index": 3
-    },
-    {
       "slug": "longform-purpose",
       "index": 4
     },
@@ -200,6 +196,10 @@
     {
       "slug": "gap-when",
       "index": 3
+    },
+    {
+      "slug": "longform-purpose",
+      "index": 4
     }
   ]
 }
