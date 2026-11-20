@@ -1,11 +1,7 @@
 {
-  "next_index": 6,
+  "next_index": 0,
   "history": [
     {
-      "slug": "type-filter",
-      "index": 5
-    },
-    {
       "slug": "hub-howto",
       "index": 6
     },
@@ -200,6 +196,10 @@
     {
       "slug": "type-filter",
       "index": 5
+    },
+    {
+      "slug": "hub-howto",
+      "index": 6
     }
   ]
 }
